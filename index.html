@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <div class="hamburger">
+        <span></span>
+        <span class="span"></span>
+    </div>
+
+    <div class="hamMenu">
+        <div class="theme">
+            <p id="theme">Theme</p>
+            <label class="onoffbtn">
+                <input type="checkbox">
+            </label>
+        </div>
+
+        <div class="lang">
+            <p id="changeLang">Languages</p>
+            <div class="languages" id="changeLang">
+                <select id="languageSelect" class="languageSelect">
+                    <option value="en">English</option>
+                    <option value="uz">O'zbekcha</option>
+                    <option value="ru">Русский</option>
+                </select>
+            </div>
+        </div>
+
+        <div class="about" id="aboutSection">
+            <button class="aboutBtn">About</button>
+            <p id="chatMessage"></p>
+        </div>
+
+        <form action="#" class="feedback contact_form">
+            <p id="feedback">Feedback</p>
+            <input class="name" type="text" placeholder="Your name">
+            <input class="email" type="email" placeholder="Your email">
+            <textarea class="msg" cols="30" rows="5" placeholder="Leave your feedback"></textarea>
+            <button type="submit" id="feedbackSubmit">Send</button>
+        </form>
+
+        <div class="contact">
+            <a href="https://www.instagram.com/abdughaniyev" target="_blank"><img src="img/instagram.png" alt="Instagram"></a>
+            <a href="https://t.me/onLastBreath" target="_blank"><img src="img/telegram.png" alt="Telegram"></a>
+            <a href="https://www.linkedin.com/feed/?legoTrackingToken=c34ZpnFFkTBxr71PqmgCc2UMfmlOrSdjtOoZsC5gr6litOoZp6Zdr6litOoVejAVejRApnhPpnlNpl9JtmUCjAZ9l4BjjR0Zuk9OpmhOjThBpShFtOpQrClQrCBvsClHpmlPnS9LqBYOtChxs6xzrDlxr3RAinhBpShFtOoMfmVLqnhFsSZgt6lDp6BT9z0Kc3RBsCZzkT9D9zROol1Ipl9OpOoZp6Zdr6lisCsCc3RKrSBQqndLk71RrT9D9zAVejAVfmhBt7dBtn5BkCRRjD1RrT9D9DhItm5CpmgZp4BMtmZOpOpejQBkildfk3RVgD9Bp79L9DhItm5CpmgZp4BQrClJpSlP9DhKpnhKqjRAinhLr7cCt6NRompBp3RAinhRrTBxr2oOtChxs6xzrDlxr3RBrm5epmtxs2pEt7tLsCsZp4BMs64Ce34Sc3cNfmh9rCZFsT9BtyoTe3wPcjsVdz0Nfmh9tioPpzcQozBypzcQpzoJcC9xoiRycm4QbjoOoj4Jd30SdC5AcCoZp4BQu6lQrCZz"><img src="img/linkedin.png" alt="LinkedIn"></a>
+            <a href="https://github.com/FakhrAl-din" target="_blank"><img src="img/github.png" alt="Github"></a>
+        </div>
+    </div>
+
+    <div class="container">
+        <div class="downloadMenu" id="download_dots_btn"><p>...</p></div>
+        <div id="loading">Loading...</div>
+        <div class="display"><img src="img/gif.gif" style="-webkit-user-drag: none;" id="mainQR" class="mainQR"></div>
+        <input type="text" class="input" id="feedbackInput" placeholder="Paste the link">
+        <div class="bothbtns">
+            <button id="reload" class="gen">Reload</button>
+            <button id="gen" class="gen">QR Code</button>
+        </div>
+        <div class="allOptions">
+            <button id="save" class="button"><img src="img/save.png" alt="Save"></button>
+            <button id="share" class="button"><img src="img/share.png" alt="Share"></button>
+        </div>
+    </div>
+
+    <script src="https://smtpjs.com/v3/smtp.js"></script>
+    <script src="FileSaver.js-2.0.4/dist/FileSaver.min.js"></script>
+    <script src="js/app.js"></script>
+</body>
+</html>
