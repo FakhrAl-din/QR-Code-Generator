@@ -200,7 +200,7 @@ document.addEventListener("DOMContentLoaded", function () {
 
     reload.addEventListener('click', () => {
         inputs.value = '';
-        mainQR.src = '/img/gif.gif';
+        mainQR.src = './img/gif.gif';
     })
 
     // Functionalities related to downloading QR image
