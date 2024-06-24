@@ -1,6 +1,4 @@
 
-
-
 document.addEventListener("DOMContentLoaded", function () {
     const hamMenu = document.querySelector('.hamMenu');
     const hamburger = document.querySelector('.hamburger');
